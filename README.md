@@ -26,7 +26,7 @@ The project is created with:
 **Running the project:**
 
 To run this project use Jupyter Notebook or [Google Colab](https://colab.research.google.com/drive/1EZkDLuk8S9Zzn90dlKIoQZ7T7VUshjk0?usp=sharing).<br /><br />
-Alternatively, <br /> The program can also be run on any IDE by opening the **[Model_p_final.ipynb](https://colab.research.google.com/drive/1EZkDLuk8S9Zzn90dlKIoQZ7T7VUshjk0?usp=sharing)** file in Google Colab and importing the whole code as a **.py** file < /br>
+**Alternatively,** <br /> The program can also be run on any IDE by opening the **[Model_p_final.ipynb](https://colab.research.google.com/drive/1EZkDLuk8S9Zzn90dlKIoQZ7T7VUshjk0?usp=sharing)** file in Google Colab and importing the whole code as a **.py** file.</br>
 
 To run the model trainer locally, install the packages: 
 ```
