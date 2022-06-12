@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 MODELSPATH = 'bin_witha_brain_modelf.h5'
-DATAPATH = 'nightknight112/bin_with_a_brain/main/api-cfg/waste1.jpg'  # sample image
+DATAPATH = 'waste1.jpg'  # sample image
 
 
 @st.cache
