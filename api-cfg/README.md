@@ -3,7 +3,7 @@
 ## General info
 
 That is a simple Streamlit application with using a Deep Learning model to determine if a given waste are recyclable/non-biodegradable or organic/biodegradable. 
-We used a pretrained CNN (Convolutional Neural Network) model to detect waste. The code for building the CNN model is available [here](https://github.com/nightKnight112/Bin_with_a_Brain/blob/main/Model_p_final.ipynb).
+We used a pretrained CNN (Convolutional Neural Network) to detect waste. The code for building the CNN model is available [here](https://github.com/nightKnight112/Bin_with_a_Brain/blob/main/Model_p_final.ipynb).
 
 
 ## Technologies
