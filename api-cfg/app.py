@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-MODELSPATH = 'waste_model.h5'
+MODELSPATH = 'bin_witha_brain_modelf.h5'
 DATAPATH = 'waste1.jpg'  # sample image
 
 
