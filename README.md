@@ -32,7 +32,7 @@ To run the model trainer locally, install the packages:
 ```
 pip install -r requirements.txt
 ```
-or install the libraries using the following commands
+or install the libraries using the following commands</br>
 ```
 pip install tensorflow
 pip install keras
@@ -42,3 +42,4 @@ pip install pillow
 pip install matplotlib
 pip install seaborn
 ```
+Also, one can find the model training and testing workflow and software simulation workflow [here](https://whimsical.com/mini-project-re-QcrHkkrnrr52aCwB7eE3e)
