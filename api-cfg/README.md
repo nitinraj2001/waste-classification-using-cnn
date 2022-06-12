@@ -14,7 +14,7 @@ Project is created with:
 
 **Running the app:**
 
-To run this app install locally packages: 
+To run this app install the required libraries by: 
 ```
 pip install -r requirements.txt
 ```
