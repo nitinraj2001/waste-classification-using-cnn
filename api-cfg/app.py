@@ -19,7 +19,8 @@ def load_models():
 
 
 st.title('Bin with a Brain')  # project title
-st.text('**This application will let you verify if your waste may be biodegradable or not**')
+st.header('Waste Classification Application based on CNN(software implementation)')
+st.text('This application will let you verify if your waste may be biodegradable or not')
 st.markdown('To see prediction one can use a sample data(already provided) or upload their own image.')
 
 st.sidebar.title('Select options:')
