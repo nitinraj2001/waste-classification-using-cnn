@@ -43,3 +43,4 @@ pip install matplotlib
 pip install seaborn
 ```
 Also, one can find the model training and testing workflow and software simulation workflow [here](https://whimsical.com/mini-project-re-QcrHkkrnrr52aCwB7eE3e)
+The deployed app can be accessed [here](https://nightknight112-bin-with-a-brain-api-cfgapp-qt2ylc.streamlit.app/)
