@@ -34,3 +34,5 @@ streamlit run app.py
 ### Streamlit app preview:
 
 ![Streamlit app view](streamlit_app.PNG)
+
+The app can be accessed at the following ![page](https://nightknight112-bin-with-a-brain-api-cfgapp-qt2ylc.streamlit.app/)
