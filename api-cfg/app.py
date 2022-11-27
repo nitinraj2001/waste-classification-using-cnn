@@ -5,6 +5,7 @@ from tensorflow.keras.preprocessing.image import save_img
 from PIL import Image
 from fpdf import FPDF
 import random
+import webbrowser
 
 MODELSPATH = 'bin_witha_brain_modelf.h5'
 DATAPATH = 'waste1.jpg'  # sample image
@@ -117,7 +118,8 @@ elif page == "Upload an Image":
 
             st.write(prediction)
             st.success("Successfully predicted, click below to report to the authorities")
-            st.button("File a Report", key='started', help='click here to report wastes lying around')
+            if st.button("File a Report", key='started', help='click here to report wastes lying around'):
+                webbrowser.open_new_tab('https://www.wm.com/')
             st.download_button("Download the Generated Report", filename, key='download',
                                file_name='report.pdf',
                                help='click here to download the generated report for manual submission')
@@ -155,7 +157,8 @@ elif page == "Use Camera to Upload Image":
 
             st.write(prediction)
             st.success("Successfully predicted, click below to report to the authorities")
-            st.button("File a Report", key='started', help='click here to report wastes lying around')
+            if st.button("File a Report", key='started', help='click here to report wastes lying around'):
+                webbrowser.open_new_tab('https://www.wm.com/')
             st.download_button("Download the Generated Report", filename, key='download',
                                file_name='report.pdf',
                                help='click here to download the generated report for manual submission')
